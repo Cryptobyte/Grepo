@@ -1,0 +1,21 @@
+{
+  "Towns": "grepolis.com/data/towns.txt",
+  "Islands": "grepolis.com/data/islands.txt",
+  "Conquers": "grepolis.com/data/conquers.txt",
+  "Players": {
+    "Details": "grepolis.com/data/players.txt",
+    "Kills": {
+      "All": "grepolis.com/data/player_kills_all.txt",
+      "Attack": "grepolis.com/data/player_kills_att.txt",
+      "Defend": "grepolis.com/data/player_kills_def.txt"
+    }
+  },
+  "Alliances": {
+    "Details": "grepolis.com/data/alliances.txt",
+    "Kills": {
+      "All": "grepolis.com/data/alliance_kills_all.txt",
+      "Attack": "grepolis.com/data/alliance_kills_att.txt",
+      "Defend": "grepolis.com/data/alliance_kills_def.txt"
+    }
+  }
+}

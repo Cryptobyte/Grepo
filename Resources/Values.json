@@ -1,0 +1,36 @@
+{
+  "world": {
+    "map": {
+      "size": {
+        "pixelWidth": 128000,
+        "pixelHeight": 128000
+      }
+    },
+    "info": {
+      "units": "units.json",
+      "buildings": "buildings.json",
+      "researches": "researches.json"
+    },
+    "data": {
+      "towns": "towns.txt",
+      "islands": "islands.txt",
+      "conquers": "conquers.txt",
+      "players": {
+        "details": "players.txt",
+        "kills": {
+          "all": "player_kills_all.txt",
+          "attack": "player_kills_att.txt",
+          "defend": "player_kills_def.txt"
+        }
+      },
+      "alliances": {
+        "details": "alliances.txt",
+        "kills": {
+          "all": "alliance_kills_all.txt",
+          "attack": "alliance_kills_att.txt",
+          "defend": "alliance_kills_def.txt"
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,3 @@
-const MongoClient = require('mongodb').MongoClient;
-const assert = require('assert');
-
 const logger = require('./Logger');
 const grepoJson = require('./GrepoJson');
 

@@ -1,5 +1,5 @@
 ## Grepo
-This is a Grepolis data framework written in Javascript for NodeJS. The idea behind this framework is to provide a useful starting point for handling Grepolis data from the provided data sheets as well as some example tools developed with the framework. This framework is under active development and really needs contributions to world data (see Help Wanted section) since there are so many worlds and servers each with their own data that needs to be written by hand into this framework.
+This is a Grepolis data framework written in Javascript for NodeJS. The idea behind this framework is to provide a useful starting point for handling Grepolis data from the provided data sheets as well as some example tools developed with the framework. This framework is under active development and really needs contributions to world data (see [Help Wanted](https://github.com/Cryptobyte/Grepo#help-wanted) section) since there are so many worlds and servers each with their own data that needs to be written by hand into this framework.
 
 ### Help Wanted
 Grepolis is an ongoing game that provides little data on it's servers and worlds to API endpoints that can be consumed by a program like this one. The reality is that the easiest way to handle this limitation is to enter the data by hand into the nessicary parts of the program. Grepo is built to handle changes to [resource files](Resources/) without modification of the source code. This gives the ability for anyone (even without programming knowledge) to contribute to these files. Servers and their worlds have information such as world name, speed, etc. that is all kept inside [this file](Resources/Servers.json) to contribute to this, take a look at the data already there and match the layout of that data with the data you are entering. Keep in mind that this is **structured data** so the structure of the data in the file needs to stay the same. I will do my best to fix up any data that is improperly entered however I am still in the process of developing and documenting the toolkit itself so pull requests may not get answered right away.
@@ -9,7 +9,7 @@ Grepo is designed to be highly modular so that anyone can use whatever parts the
 
 - [Resources](Resources/) - Where static data is kept
 - [GrepoJson](GrepoJson/index.js) - Submodule for reading Grepolis csv data into JSON objects
-- [GrepoDB](GrepoDB/index.js) [Depends on `GrepoJson`] - Submodule for managing a [MariaDB](https://mariadb.com/) instance with Grepolis data (see Why MariaDB?)
+- [GrepoDB](GrepoDB/index.js) [Depends on `GrepoJson`] - Submodule for managing a [MariaDB](https://mariadb.com/) instance with Grepolis data (see [Why MariaDB?](https://github.com/Cryptobyte/Grepo#why-mariadb))
 
 
 ### Why MariaDB?
